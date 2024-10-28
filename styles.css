@@ -3,6 +3,9 @@
     height: 100px;
     position: relative;
     width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .face {
@@ -13,4 +16,5 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -60%) rotate(90deg);
+    
 }
